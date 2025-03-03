@@ -1,0 +1,239 @@
+/* NORMALIZACION */
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #1B2A35;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em 3em;
+}
+
+.tarjeta_titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.tarjeta_parrafo {
+    font-size: 17px;
+    color: grey;
+    text-align: center;
+}
+
+.tarjeta_contenedor {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta_contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #0989CF;
+    padding: 90px;
+}
+
+.tarjeta_contenido_amarillo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #F9D62E;
+    padding: 90px;
+}
+
+.tarjeta_contenido_verde {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #348E40;
+    padding: 90px;
+}
+
+.tarjeta_contenido_rosa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #FF9494 ;
+}
+
+.tarjeta_contenido_plum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #7B2F7B;
+}
+
+.tarjeta_contenido_white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: whitesmoke;
+}
+
+.tarjeta_contenido_negro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #1B2A35;
+}
+
+.tarjeta_contenido_beige {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #D3BE96;
+}
+
+.tarjeta_contenido_sunrise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #D490BD;
+}
+
+.tarjeta_contenido_gris{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #ABA89E;
+}
+
+.tarjeta_contenido_orange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #DC602E;
+}
+
+.tarjeta_contenido_blue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #056969;
+}
+
+.tarjeta_contenido_pink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #D7B49E;
+}
+
+.tarjeta_contenido_rose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #EB8698;
+}
+
+.tarjeta_contenido_morado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 90px;
+    background-color: #C98CA7;
+}
+
+.tarjeta_contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #0989CF;
+    padding: 90px;
+}
+
+.tarjeta_contenido_brillo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #55FF55;
+    padding: 90px;
+}
+
+.tarjeta_contenido_red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #FF5555 ;
+    padding: 90px;
+}
+
+.tarjeta_contenido_grey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #555555 ;
+    padding: 90px;
+}
+
+.tarjeta_contenido_violet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: #AA00AA ;
+    padding: 90px;
+}

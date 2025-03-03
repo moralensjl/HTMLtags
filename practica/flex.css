@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1B2A35;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.beauty_principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3em;
+    max-width: 1200px;
+    padding: 3em 1em;
+    margin: 0 auto;
+    /* align-items: center; */
+}
+
+.beauty_titulo {
+    font-weight: bold;
+    font-size: 28px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.beauty_parrafo {
+    font-size: 18px;
+    text-align: center;
+    color: grey;
+}
+
+.beauty_contenedor {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center; /* Es en el contenedor donde se utiliza esta propiedad para 
+    centrar los elementos*/
+}
+
+.beauty_contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Si tiene algun parrafo se centra sus elementos*/
+}
+
+.beauty_parrafo-1 {
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+.beauty_imagen {
+    width: 300px;
+    border-radius: 3.5%;
+    border: 1px solid black;
+}
